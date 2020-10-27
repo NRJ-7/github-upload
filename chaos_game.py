@@ -49,4 +49,5 @@ def animate(i):
 	plt.title('Chaos Game')
 
 ani = animation.FuncAnimation(fig, animate, interval=20)
-plt.show()
+plt.ion()
+plt.show(block=True)

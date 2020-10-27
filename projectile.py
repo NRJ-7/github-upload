@@ -7,12 +7,12 @@ plt.style.use('dark_background')
 
 g = 9.8				# gravity in m/(s^2)
 m = 1				# mass of ball in kg
-u_in = (100,20)	# initial velocity in m/s
+u_in = (10,20)	# initial velocity in m/s
 pos_in = (0,0)		# initial position of ball
 Nt = 50000			# number of time instants
 dt = 0.01			# time step value in seconds
-ge = 0.7			# coefficient of elastic collision with ground
-f = 0.2				# coefficient of friction
+ge = 0.8			# coefficient of elastic collision with ground
+f = 0				# coefficient of friction
 
 fig = plt.figure() 
 ax = plt.axes(xlim=(-5, 800), ylim=(-5, 30)) 

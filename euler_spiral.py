@@ -5,10 +5,10 @@ import matplotlib.animation as animation
 import time
 plt.style.use('dark_background')
 
-l = 0.3				# length of rod
+l = 0.2				# length of rod
 th0 = 0.1			# initial angle of rod with x-axis in radians
-Nt = 50000			# number of time instants
-dt = 1e-3			# time step value in seconds
+Nt = 500000			# number of time instants
+dt = 1e-4			# time step value in seconds
 
 fig = plt.figure() 
 ax = plt.axes(xlim=(-10, 10), ylim=(-10,10)) 

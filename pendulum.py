@@ -13,7 +13,7 @@ th_in = np.pi/3			# initial angle of rod with x-axis in radians
 w_in = 0			# initial angular velocity in rads/s
 Nt = 50000			# number of time instants
 dt = 0.05			# time step value in seconds
-f = 0				# friction coefficient
+f = 0.5				# friction coefficient
 
 fig = plt.figure() 
 ax = plt.axes(xlim=(-2, 2), ylim=(0,3)) 
