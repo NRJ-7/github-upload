@@ -13,8 +13,8 @@ fig = plt.figure()
 #creating a subplot 
 ax1 = fig.add_subplot(1,1,1)
 
-xs.append(start_point[0])
-ys.append(start_point[1])
+xs = [start_point[0]]
+ys = [start_point[1]]
 
 def animate(i):
 	# x, y values to be plotted 

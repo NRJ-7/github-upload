@@ -5,7 +5,7 @@ from sys import argv
 from math import sin,cos,pi
 plt.style.use('dark_background')
 
-num_vertices = 3#int(argv[1])
+num_vertices = 3 #int(argv[1])
 print(num_vertices)
 vertices = []
 xs = []
